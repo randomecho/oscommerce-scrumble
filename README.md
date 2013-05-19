@@ -7,6 +7,9 @@ explain what it would be used for and/or how to install it.
 
 - [Repatriator](/repatriator) - Fixes up address book entries where the country ID
   is incorrect 
+  
+- [Product Replacement](/product-replacement) - Redirect customers from one product 
+  to its replacement 
 
 ## Caveat
 
