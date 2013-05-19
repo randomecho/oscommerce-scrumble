@@ -1,4 +1,4 @@
-# Repatriator - osCommerce 2.3 address book fixer
+# Repatriator - Address book fixer
 
 Fixes up address book entries where the country ID column is incorrect and 
 you don't want to edit the database row by affected row.
@@ -20,9 +20,10 @@ Doesn't really matter.
     
 ## Usage
 
-1. Load the page in your browser. E.g.,
+1. Load the page in your browser. For example,
 
         http://example.com/admin/repatriator.php
+
 2. Select the correct country per address
 3. Select the correct state/province where/if applicable
 4. Click "Save"
