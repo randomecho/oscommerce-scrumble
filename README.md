@@ -11,6 +11,9 @@ explain what it would be used for and/or how to install it.
 - [Product Replacement](/product-replacement) - Redirect customers from one product 
   to its replacement 
 
+- [Clean Slate](/clean-slate) - Quickly delete all the products and categories
+  without having to do so from the database
+
 ## Caveat
 
 All these modules are really only targeted to the poor souls using osCommerce v2.3.
