@@ -12,11 +12,14 @@ define('HEADING_TITLE', 'Clean Slate');
 
 define('TEXT_WHAT', 'Only use this form if you want to quickly delete all of the products and categories in the catalogue.');
 
-define('LABEL_PRODUCTS', 'Delete all products');
 define('LABEL_CATEGORIES', 'Delete all categories');
+define('LABEL_CUSTOMERS', 'Delete all customers');
+define('LABEL_PRODUCTS', 'Delete all products');
 
 define('STATUS_CATEGORIES', 'All categories have been deleted');
 define('STATUS_CATEGORIES_SKIP', 'Skipped - Categories');
+define('STATUS_CUSTOMERS', 'All customers have been deleted');
+define('STATUS_CUSTOMERS_SKIP', 'Skipped - Customers');
 define('STATUS_PRODUCTS', 'All products have been deleted');
 define('STATUS_PRODUCTS_SKIP', 'Skipped - Products');
 
