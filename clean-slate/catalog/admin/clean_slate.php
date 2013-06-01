@@ -53,6 +53,12 @@ if (isset($_POST['trigger_purge'])) {
     tep_db_query("delete from " . TABLE_PRODUCTS. "");
     tep_db_query("delete from " . TABLE_PRODUCTS_DESCRIPTION. "");
     tep_db_query("delete from " . TABLE_PRODUCTS_TO_CATEGORIES . "");
+    tep_db_query("delete from " . TABLE_PRODUCTS_ATTRIBUTES . "");
+    tep_db_query("delete from " . TABLE_SPECIALS . "");
+    tep_db_query("delete from " . TABLE_CUSTOMERS_BASKET . "");
+    tep_db_query("delete from " . TABLE_CUSTOMERS_BASKET_ATTRIBUTES . "");
+    tep_db_query("delete from " . TABLE_REVIEWS . "");
+    tep_db_query("delete from " . TABLE_REVIEWS_DESCRIPTION . "");
 
     $messageStack->add_session(STATUS_PRODUCTS, 'warning');
   } else {
